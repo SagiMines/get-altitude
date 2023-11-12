@@ -1,0 +1,28 @@
+{
+  "name": "get-altitude",
+  "version": "1.0.0",
+  "description": "Get the altitude by providing the latitude and longitude.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SagiMines/get-altitude.git"
+  },
+  "keywords": [
+    "altitude"
+  ],
+  "engines": {
+    "node": ">=10.10.1 <=17.9.1"
+  },
+  "author": "Sagi Mines",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SagiMines/get-altitude/issues"
+  },
+  "homepage": "https://github.com/SagiMines/get-altitude#readme",
+  "dependencies": {
+    "gdal": "^0.11.1"
+  }
+}
